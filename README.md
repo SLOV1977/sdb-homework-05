@@ -47,17 +47,17 @@
 
 1. Конфигурационные файлы master-slave репликации.
 
-![docker-compose.yml](https://github.com/SLOV1977/sdb-homework-05/tree/main/img/001.png)
+[docker-compose.yml](https://github.com/SLOV1977/sdb-homework-05/tree/main/config/docker-compose.yml)
 
 ![docker-compose.yml](img/001.png)
 
 
-![master.cnf](https://github.com/SLOV1977/sdb-homework-05/tree/main/img/002.png)
+[master.cnf](https://github.com/SLOV1977/sdb-homework-05/tree/main/config/master.cnf)
 
 ![master.cnf](img/002.png)
 
 
-![slave.cnf](https://github.com/SLOV1977/sdb-homework-05/tree/main/img/003.png)
+![slave.cnf](https://github.com/SLOV1977/sdb-homework-05/tree/main/config/slave.cnf)
 
 ![slave.cnf](img/003.png)
 
@@ -102,7 +102,7 @@ CHANGE MASTER TO  MASTER_HOST='mysql-master',MASTER_USER='replication_user',MAST
 START SLAVE;
 SHOW SLAVE STATUS\G
 ```
-![Настройка и запуск репликации на slave-сервере](img/008.png)
+![Настройка и запуск репликации на slave-сервере](img/008.jpeg)
 
 7. Тестирование репликации.
 
